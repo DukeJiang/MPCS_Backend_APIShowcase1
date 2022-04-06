@@ -1,0 +1,3 @@
+curl -s https://www.googleapis.com/books/v1/volumes?q=search+pride | jq
+
+curl -s https://www.googleapis.com/books/v1/volumes?q=pride+prejudice&download=epub | jq
